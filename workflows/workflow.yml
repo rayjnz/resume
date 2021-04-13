@@ -13,5 +13,5 @@ jobs:
         with:
           source_dir: 'frontend'
           container_name: '$web'
-          connection_string: ${{ secrets.CONNECTION_STRING }}
+          connection_string: ${{ secrets.CONNECTIONSTRING }}
           sync: true
